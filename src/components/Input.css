@@ -1,0 +1,17 @@
+.input-wrapper {
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.result {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.current {
+    font-size: 2rem;
+}
