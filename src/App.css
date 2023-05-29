@@ -1,26 +1,24 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: rgb(158, 158, 158);
+  background-color: rgb(34, 29, 29);
 }
 
 .wrapper {
-    background: rgb(255, 255, 255);
-    width: 300px;
-    margin: 200px auto;
-    border-radius: 16px;
-    overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(255, 255, 255);
+  width: 300px;
+  border-radius: 16px;
+  
 }
 
 .row {
-    display: flex;
-    gap: 2px;
-    margin: 2px;
-    border-radius: 16px;
-
+  display: flex;
 }

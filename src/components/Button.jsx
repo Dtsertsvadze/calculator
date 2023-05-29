@@ -1,10 +1,16 @@
-import React from 'react'
-import "./button.css"
+import React from "react";
+import "./button.css";
 
-const Button = ({symbol, onClick, color}) => {
+const Button = ({specificStyle, symbol, onClick }) => {
   return (
-    <button style={{background: color}}onClick={() => onClick(symbol)} className='button-wrapper'>{symbol}</button>
-  )
-}
+    <button
+      style={specificStyle}
+      onClick={() => onClick(symbol)}
+      className={'button-wrapper'}
+    >
+      {symbol}
+    </button>
+  );
+};
 
-export default Button
+export default Button;
