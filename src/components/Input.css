@@ -1,0 +1,22 @@
+.input-wrapper {
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+    padding: 10px;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    border-radius: 16px 16px 0 0;
+    border: 1px solid rgb(130, 130, 130);
+
+}
+
+.result {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.current {
+    font-size: 2rem;
+}
