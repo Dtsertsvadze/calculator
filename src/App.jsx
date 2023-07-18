@@ -1,5 +1,5 @@
 import Button from "./components/Button";
-import "./app.css";
+import "./App.css";
 import Input from "./components/Input";
 import { evaluate } from "mathjs";
 
